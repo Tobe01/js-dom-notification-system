@@ -30,8 +30,8 @@ js-dom-notification-system/
 
 ## How to Run
 1. **Clone the repository**
-   
-git clone https://github.com/tobe01/js-dom-notification-system.git
+```bash
+git clone https://github.com/Tobe01/js-dom-notification-system.git
 Open the example
 
 Navigate to the example folder
@@ -48,13 +48,15 @@ Open index.html in your browser
   notifier.success('Hello, world!');
 </script>
 
-API Method	Parameters	Description:
+## API
 
-show	message, type, duration	Show a notification of any type
-success	message, duration	Green success message
-error	message, duration	Red error message
-warning	message, duration	Orange warning message
-info	message, duration	Blue info message
+Method	    Parameters	                    Description
+
+show	       message, type, duration	     Show a notification of any type
+success	    message, duration	           Green success message
+error	       message, duration	           Red error message
+warning	    message, duration	           Orange warning message
+info	       message, duration	           Blue info message
 
 License
 MIT License
