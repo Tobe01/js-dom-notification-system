@@ -28,10 +28,10 @@ js-dom-notification-system/
 └── README.md
 
 ---
-
+```
 ## How to Run
-1. **Clone the repository**
 ```bash
+1. **Clone the repository**
 git clone https://github.com/Tobe01/js-dom-notification-system.git
 Open the example
 
@@ -39,8 +39,12 @@ Navigate to the example folder
 
 Open index.html in your browser
 
+
+---
+```
 ## Usage
 ## Basic Setup
+```bash
 
 <link rel="stylesheet" href="src/styles.css">
 <script src="src/notifications.js"></script>
@@ -49,7 +53,13 @@ Open index.html in your browser
   notifier.success('Hello, world!');
 </script>
 
+
+---
+
+```
 ## API
+
+```bash
 
 Method	    Parameters	                    Description
 
@@ -59,6 +69,10 @@ error	       message, duration	           Red error message
 warning	    message, duration	           Orange warning message
 info	       message, duration	           Blue info message
 
+
+---
+
+```
 License
 MIT License
 
