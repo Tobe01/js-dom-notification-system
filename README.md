@@ -14,6 +14,14 @@ Perfect for showing success, error, warning, or info messages in the browser wit
 
 ---
 
+### Related Article
+You can read the full tutorial here:
+
+- [Building a Reusable Notification System with JavaScript and the DOM](https://tobechiduru.hashnode.dev/building-a-reusable-notification-system-with-javascript-and-the-dom)
+
+
+---
+
 ## Folder Structure
 ```bash
 js-dom-notification-system/
@@ -73,7 +81,5 @@ info	       message, duration	           Blue info message
 ---
 
 ```
-License
-MIT License
 
 Made with ❤️ using Vanilla JS
