@@ -15,6 +15,7 @@ Perfect for showing success, error, warning, or info messages in the browser wit
 ---
 
 ## Folder Structure
+```bash
 js-dom-notification-system/
 │
 ├── src/
