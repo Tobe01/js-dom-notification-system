@@ -81,7 +81,7 @@ info	       message, duration	           Blue info message
 ---
 
 ```
-License
+
 Free to use, modify, and share.
 
-Made in Node.js with ❤️ by Tobechi
+Made in Vanilla.js with ❤️ by Tobechi
