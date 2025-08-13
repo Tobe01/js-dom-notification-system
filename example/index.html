@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification System Demo</title>
+  <link rel="stylesheet" href="../src/styles.css">
+</head>
+<body>
+  <div class="contents-container">
+      <h1>Reusable Notification System</h1>
+      <div>
+        <button onclick="notifier.success('This is a success message!')">Success</button>
+        <button onclick="notifier.error('Something went wrong!')">Error</button>
+        <button onclick="notifier.warning('This is a warning!')">Warning</button>
+        <button onclick="notifier.info('Just some information.')">Info</button>
+      </div>
+  </div>
+  
+
+  <script src="../src/notifications.js"></script>
+  <script>
+    const notifier = new NotificationSystem();
+  </script>
+</body>
+</html>
